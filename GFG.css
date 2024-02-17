@@ -1,0 +1,143 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    /* overflow-x:hidden; */
+}
+.one{
+    background-color:#206518 !important;
+}
+.navtxt{
+    color:white !important;
+    font-weight:bold;
+    font-size:17px;
+    padding:1%;
+}
+.bgimg{
+    width:99vw;
+    background:linear-gradient(to bottom,rgb(6, 169, 120)50%,rgb(106, 208, 155)75%,whitesmoke);
+    padding-top:60px;
+    margin-top:1%;
+}
+.maincontent{
+    text-align:center;
+    width:99vw;
+}
+.gradient-button{
+    background-image: linear-gradient(to right, rgb(40, 46, 170) , #4d3ae3 ,rgb(85, 85, 206));
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+.gradient-buttonrf{
+    background-image: linear-gradient(to right,yellow,rgb(241, 241, 133),rgb(237, 237, 210));
+    border: none;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px
+}
+.heading{
+    color:#193629;
+    text-transform:capitalize;
+    font-size:50px;
+    font-weight:bold;
+}
+.para{
+    color:white;
+    font-size:30px;
+}
+#RefundCourses{
+    width:99vw;
+}
+#C{
+    width:99vw;
+}
+#Cpp{
+    width:99vw;
+}
+#Python{
+    width:99vw;
+}
+#Java{
+    width:99vw;
+}
+#DSA{
+    width:99vw;
+}
+.navtxtcourse{
+    color:gray;
+    font-weight:bolder;
+}
+.signup{
+    text-decoration:none;
+    font-weight:bold;
+    color:green;
+}
+.Footer{
+    background-color:#206518;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    width:99vw ;
+    padding-top:1%;
+}
+.fa-angles-up{
+    position:fixed;
+    color:white;
+    background-color:black;
+    font-size:30px;
+    bottom:0;
+    right:14px;
+}
+.fa-brands{
+    color: white;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    padding:1%;
+}
+.fa-brands:hover{
+    color:aqua;
+}
+.footimg{
+    padding:1%;
+    border-radius:5px;
+}
+
+@media screen and (max-width:576px){
+    body{
+        overflow-x:hidden;   
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        overflow-x:hidden;
+    }
+}
+@media all and (min-width:769px) and (max-width:992px){
+    body{
+        overflow-x:hidden;
+    }
+}
+@media all and (min-width:993px) and (max-width:1200px){
+    body{
+        overflow-x:hidden;
+    }
+}
+@media all and (min-width:1201px){
+    body{
+        overflow-x:hidden;
+    }
+}
